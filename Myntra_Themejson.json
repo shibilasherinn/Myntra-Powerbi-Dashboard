@@ -1,0 +1,88 @@
+{
+  "name": "Myntra Theme",
+  "dataColors": [
+    "#FF3F6C",
+    "#282C3F",
+    "#FF905A",
+    "#03A685",
+    "#FFB6C1",
+    "#535766",
+    "#FFD200",
+    "#94969F",
+    "#D14D72",
+    "#43506C"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#282C3F",
+  "tableAccent": "#FF3F6C",
+  "good": "#03A685",
+  "neutral": "#FFB800",
+  "bad": "#FF3F6C",
+  "maximum": "#FF3F6C",
+  "center": "#FF905A",
+  "minimum": "#FFE4E9",
+  "null": "#94969F",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#282C3F"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#282C3F"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FF3F6C"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#535766"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#EFEFEF" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "preset": "Bottom",
+            "color": { "solid": { "color": "#000000" } },
+            "transparency": 90,
+            "position": "Outer",
+            "shadowBlur": 6,
+            "shadowDistance": 2
+          }
+        ]
+      },
+      "card": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#FF3F6C" } },
+            "fontSize": 28,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#535766" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    }
+  }
+}
